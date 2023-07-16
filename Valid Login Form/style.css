@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body{
-	background: url(bg_img.jpg) no-repeat;
+	background: url(pxfuel.jpg) no-repeat;
 	background-size: cover;
 	align-items: center;
 	justify-content: center;
@@ -48,17 +48,17 @@ body{
 	height: 45px;
 	width: 365px;
 	font-size: 20px;
-	color: white;
+	color: rgb(235, 238, 36);
 	outline: none;
 	cursor: pointer;
 	font-weight: bold;
-	background: #1A237E;
+	background: #8be7b9;
 	border-radius: 3px;
-	border: 1px solid #3949AB;
+	border: 1px solid #4585ce;
 	transition: .5s;
 }
 .login_form button:hover{
-	background: #151c6a;
+	background: #3b43a1;
 }
 .login_form #email_error,
 .login_form #pass_error{
@@ -74,4 +74,8 @@ body{
 	display: none;
 }
 
-
+.transparent-form {
+	background-color: rgba(255, 25, 25, 23); /* Adjust the last value (0.7) to control the opacity */
+	padding: 20px;
+	/* Add additional styling as needed */
+  }
